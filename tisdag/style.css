@@ -76,15 +76,104 @@ button {
    1. GRUNDLÄGGANDE SELEKTORER
 ======================================== */
 
+/* Type selector ("elementselektor") plockar alla av typen på hela sidan */
+p {
+  color: #555;
+}
+
+h1 {
+  color: darkblue;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+/* h3 {
+  color: red;
+} */
+
+/* Class selector */
+.card {
+  border-radius: 12px;
+}
+
+.featured {
+  background-color: #fff3cd;
+}
+
+/* ID selector, ett specifikt ID kan bara finnas en gång på en sida */
+/* #page-title {
+  text-transform: uppercase;
+} */
+
+/* Universal selector, används bl a för reset ochkan användas för debugging enligt nedan */
+/* * {
+  outline: 1px solid red;
+} */
+
+/* Grouping, lägger samma regler på flera taggar */
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+}
+
+/* 
+Typ         Exempel       Specificitet
+ID          #page-title   1-0-0
+Class       .card         0-1-0
+Element     h1            0-0-1
+Universal   *             0-0-0
+*/
+
+/* Attributes */
+
+
 
 /* ========================================
-   2. COMBINATORS OCH ATTRIBUT
+   2. COMBINATORS
 ======================================== */
+
+/* Mellanslag mellan taggarna (X Y) plockar alla Y som ligger under X */
+nav a {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+/* Child combinator (X > Y) plockar bara direkta barn Y till X */
+nav > a {
+  color: red;
+}
+
+nav > ul {
+  border-bottom: 2px solid steelblue;
+}
+
+/* Syskon (X ~ Y) plockar alla Y som ligger efter X som syskon (inte bara direkt efter) */
+h2 ~ p {
+  color: purple;
+}
+
+/* Adjacent (X + Y) plockar Y som ligger *direkt* efter X som syskon */
+h2 + p {
+  color: darkorange;
+  font-style: italic;
+}
+
+/* Combinators och attributes tillsammans */
+.card button[disabled] {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
 
 
 /* ========================================
    3. STRUKTURELLA PSEUDOKLASSER
 ======================================== */
+
+
+
 
 
 /* ========================================
