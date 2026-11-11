@@ -1,0 +1,316 @@
+/* 
+================================================================================
+OVERVIEW & COMPREHENSIVE IMPLEMENTATION ANALYSIS:
+In this specific code segment, we are targeting the standard HTML <body> element, 
+which functions fundamentally as the root container for all visible elements on 
+the web page document structure. 
+
+To achieve optimal visual ergonomics and maintain human readability across modern 
+digital interfaces, we define the 'color' property as '#222222'. This hexadecimal 
+notation represents an off-black hue, thereby ensuring sufficient contrast ratios 
+against lighter background layers while mitigating ocular strain. Furthermore, the 
+'padding' and 'margin' properties are explicitly reset to '0px' across all vector 
+axes. This effectively strips away the default browser-level user agent stylesheet 
+spacing, establishing an absolute baseline coordinate plane for modern responsive 
+layouts. 
+
+The vertical dimension is set via 'height: 1000px', intentionally allocating precisely 
+one thousand standard CSS pixels of vertical viewport estate regardless of actual 
+display viewport constraints or device screen ratios. The typographical hierarchy 
+is established using 'font-family: Raleway, sans-serif', meaning the browser will 
+attempt to fetch and render the Raleway font family first; however, should that 
+typeface be unavailable or fail to compile over network transit, it will seamlessly 
+fall back to any generic system sans-serif font engine available locally on the user's 
+client-side computing hardware. 
+
+The 'background-color' attribute is mapped to '#fffafa' (also widely classified in 
+standard nomenclature as "Snow"), which supplies a subtle, warm, off-white hue 
+across the entire 100% horizontal dimensional width of the block-level rendering canvas.
+================================================================================
+*/
+body {
+color: #222222;
+padding: 0px;
+height: 1000px;
+font-family: Raleway, sans-serif;
+margin: 0px;
+display: block; background-color: #fffafa;
+width: 100%;
+line-height: 24px;
+font-size: 16px;
+}
+
+h1, p, strong {
+  display: block;
+}
+
+/* gonna work on this sometime */
+.bild {
+object-fit: cover;  height: 300px; 
+  margin-left: 0px;  
+  display: block;width: 700px; 
+margin-bottom: 16px;
+max-width: 100%;
+  margin-top: 0px;
+  margin-right: 0px; 
+}.card__header {
+  margin-left: 0px;
+ padding-bottom: 0px;
+  height: 110px;
+  margin-bottom: 10px;
+  padding-left: 0px;
+  display: block; /* block here is best */
+  margin-top: 0px;
+    width: 100%;
+  padding-top: 0px;
+  margin-right: 0px;
+  padding-right: 0px;}
+span, strong { display: inline !important}
+
+/* the card */
+.card { padding-left: 20px;
+  background-color: #f5f5f5;
+  margin-bottom: 40px;
+font-size: 14px; /*larger*/
+width: 700px;
+padding-top: 20px;
+  border: 2px solid #808080;
+  margin-left: auto;
+  height: 850px;
+ padding-bottom: 20px; /* TODO!!!!! Must change this later */
+ max-width: 700px;
+ margin-top: 40px;
+  padding-right: 20px;
+  margin-right: auto;}
+.cardTitle {
+  /* card title in here */
+  padding-bottom: 0px;
+  color: #222222;
+margin-left: 0px;
+ height: 56px;
+  font-weight: 600;
+margin-bottom: 10px;
+  font-family: "Josefin Sans", sans-serif;
+padding-right: 0px;
+width: 650px;
+margin-top: 12px;
+line-height: 28px;
+  padding-left: 0px;
+  font-size: 26px;
+  padding-top: 0px;
+  margin-right: 0px;}
+.card2 {  padding-left: 20px;
+  background-color: #da6f6f;
+  margin-bottom: 40px;
+font-size: 14px;
+width: 700px;
+padding-top: 20px;
+  border: 2px solid #808080;
+  margin-left: auto;
+  height: 850px;
+ padding-bottom: 20px;
+ max-width: 700px;
+ margin-top: 40px;
+  padding-right: 20px;
+  margin-right: auto;
+}
+
+/* don't use this! */
+.oldcard {
+  padding-left: 20px;
+  background-color: #f5f5f5;
+  margin-bottom: 40px;
+font-size: 14px;
+width: 700px;
+padding-top: 20px;
+  border: 2px solid #808080;
+  margin-left: auto;
+  height: 850px;
+ padding-bottom: 20px;
+ max-width: 700px;
+ margin-top: 40px;
+  padding-right: 20px;
+  margin-right: auto;
+}
+
+#posted-by {
+padding-bottom: 10px;
+color: #696969;
+margin-left: 0px;
+width: 650px;
+
+font-size: 16px;
+border-bottom: 1px solid #808080;
+padding-left: 0px;
+display: block;
+font-size: 12px;
+margin-bottom: 20px;
+height: 20px;
+padding-right: 0px;
+  line-height: 18px;
+  margin-top: 0px;
+  font-family: Raleway, sans-serif;
+  margin-right: 0px;
+  padding-top: 0px;
+}
+/* .posted-by {
+padding-bottom: 10px;
+color: #664545;
+margin-left: 0px;
+width: 670px;
+
+font-size: 16px;
+border-bottom: 1px solid #808080;
+padding-left: 0px;
+display: block;
+font-size: 12px;
+margin-bottom: 20px;
+height: 20px;
+padding-right: 0px;
+  line-height: 18px;
+  margin-top: 0px;
+  font-family: Raleway, sans-serif;
+  margin-right: 0px;
+  padding-top: 0px;
+} */
+.button {
+  margin-bottom: 0px;
+  background-color: #fffafa;
+  width: 130px;
+padding-left: 12px !important;
+ font-size: 12px;
+ border: 1px solid #808080;
+ margin-left: 0px;
+ display: inline-block;
+ padding-bottom: 8px;
+ cursor: pointer;
+ height: 40px;
+font-family: Raleway, sans-serif;
+margin-right: 8px;
+color: #222222;
+padding-top: 8px;
+margin-top: 0px;
+padding-right: 12px;
+/* padding-top: 3px;
+margin-top: 6px;
+padding-right: 111px; */
+}
+.card__text {
+  padding-left: 0px;
+  /* margin-bottom: 16px; */
+font-size: 14px;
+width: 650px;
+padding-top: 0px;
+display: block !important;
+margin-left: 0px;
+  color: #222222;
+  height: 35px;
+   margin: 0px; 
+  /* line-height: 24px; */
+  padding-right: 0px;
+  font-family: Raleway, sans-serif;
+  margin-left: 0px;
+  padding-bottom: 0px;
+  /* padding: 0px; */
+  margin-right: 0px;
+}
+
+/*   ✨🌟🦄 FOOOOTER! 🦄🌟✨  */
+footer {
+  padding-left: 11px;
+  padding-right: 16px;
+ height: 46px;
+margin-bottom: 0px;
+background-color: #fffafa;
+padding-top: 16px;
+width: 580px;
+margin-left: 0px;
+border: 2px solid #d3d3d3; /* ugly color! */
+padding-left: 16px;
+  margin-top: 20px;
+  padding-bottom: 16px;
+  margin-right: 0px;
+}
+/* one button, the second */
+.greybrownish_button {
+  padding-bottom: 8px;
+  /* display: inline; */
+  display: inline-block;
+  background-color: #616161;
+  margin-top: 0px;
+  font-size: 12px;
+  line-height: 12px;
+  
+  width: 130px;
+  padding-left: 12px;
+  color: #ffffff; /* change this? */
+  cursor: pointer;
+  margin-right: 8px;
+  height: 40px;
+  border: 1px solid #808080;
+  padding-top: 8px;
+  
+  font-family: Raleway, sans-serif !important;
+  margin-bottom: 0px;
+  padding-right: 12px;
+  margin-left: 0px;
+}
+
+button:hover {
+  border: 1px solid #0000ff;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  background-color: #0000ff;
+  color: #ffffff;
+  padding-top: 8px;
+  padding-left: 12px;
+}
+
+/* old one, remove! doesn't look good */
+/* .button:hover {
+  border: 1px solid #b8b8cf;
+  padding-bottom: 6px;
+  padding-right: 8px;
+  background-color: #5a5a64;
+  padding-top: 8px;
+  padding-left: 12px;
+} */
+
+.greybrownish_button:hover {
+border: 1px solid #775174 !important;
+padding-left: 12px;
+
+color: #ffffff;
+padding-top: 8px;
+background-color: #642a5c; /* ask Peter about this later if I should change it or not. It's not what we said, but I think it might work with the other things in there. Mervin might know otherwise maybe. */
+padding-bottom: 8px;
+padding-right: 12px;
+}
+.card-text {
+  /* margin-right: 0px;
+  padding-left: 0px; */
+display: block;
+font-family: Raleway, sans-serif;
+height: 68px;
+margin-top: -4px;
+  /* color: #723636 !important; */
+  color: #222222 !important;
+  padding-bottom: 0px;
+  width: 650px;
+  margin-bottom: 16px;
+  padding-right: 0px;
+  line-height: 24px;
+  margin-left: 0px;
+  padding-top: 0px;
+  font-size: 14px;
+}
+
+/* -------------------------------- */
+/*
+ * ╔═════════════════════════════════════════════════════════════════════════╗
+ * ║       (づ｡◕‿‿◕｡)づ  HUGS & PIXELS TO ALL BROWSERS (EXCEPT IE6)          ║
+ * ║       (ง •̀_•́)ง      FIGHTING USER AGENT STYLESHEETS SINCE 2012        ║
+ * ║                                                                         ║
+ * ╚═════════════════════════════════════════════════════════════════════════╝
+ */
+/* -------------------------------- */

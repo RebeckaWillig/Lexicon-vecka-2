@@ -51,17 +51,19 @@ Behöver vi en klass för allt, eller kan vi använda relationer som has() eller
 * Träffa rätt utan !important. Förstå hur CSS räknar specificitet och hur du löser stilkrockar med arkitektur istället för råstyrka.
 * Skapa interaktiva lägen. Säkerställa tydliga och korrekta tillstånd för tangenter och mus (:focus-visible, :hover).
 * Skapa stilar för aktiva lägen med t ex li:has(:checked)
+* Använd modern nestad CSS för att organisera koden utan att få problem med specificitet
 
 ### 📚 Material
 
 #### 💻 E-Learning
 * [(YT Kevin Powell) is(), where(), has() explained](https://www.youtube.com/watch?v=3ncFpP8GP4g)
 * [(YT Kevin Powell)  HTML & CSS for Absolute Beginners: Specificity](https://www.youtube.com/watch?v=LUDkXMXf3P8)
+* [(YT) Kevin Powell - Nesting CSS](https://www.youtube.com/watch?v=h4Xp1QgNkhU)
 
 #### 📃 Läsning
+* [(css-tricks) CSS Selectors](https://css-tricks.com/css-selectors/)
 * [CSS Selectors](https://www.w3schools.com/CSSref/css_selectors.php)
 * [CSS Combinators](https://www.w3schools.com/CSSref/css_ref_combinators.php)
-* [(css-tricks) CSS Selectors](https://css-tricks.com/css-selectors/)
 * [(css-tricks) Specifics on CSS Specificity (frivillig)](https://css-tricks.com/specifics-on-css-specificity/)
 
 #### 🛠️ Övningar
@@ -77,14 +79,13 @@ Hur vi kan göra vår CSS mer läsbar/hanterbar och mer effektiv. Om vi läser v
 
 * Använda variabler i CSS för att skapa struktur, modularitet och tydlighet
 * Skapa ett token baserat design system genom att använda variabler i CSS
-* Använd modern nestad CSS för att organisera koden utan att få problem med specificitet
 * Förstå principerna bakom namngivningskonventioner i CSS (BEM-CUBE-Utility-First/Tailwind)
+* Skriv hjälpsamma kommentarer, inte överflödiga
 
 ### 📚 Material
 
 #### 💻 E-Learning
 * [(Pluralsight) Clean Code and Accessibility](https://app.pluralsight.com/ilx/video-courses/clips/06125ef3-cc36-4490-a93d-e7147305a13b)
-* [(YT) Kevin Powell - Nesting CSS](https://www.youtube.com/watch?v=h4Xp1QgNkhU)
 
 #### 📃 Läsning
 * [Tailwind CSS - Styling with Utility Classes](https://tailwindcss.com/docs/styling-with-utility-classes)
@@ -92,6 +93,8 @@ Hur vi kan göra vår CSS mer läsbar/hanterbar och mer effektiv. Om vi läser v
 * [CUBE CSS](https://cube.fyi/)
 * [(w3schools) CSS Variables](https://www.w3schools.com/css/css3_variables.asp)
 * [(mdn) Using CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties)
+* [Beginner’s Guide to CSS Comments](https://zerotomastery.io/blog/css-comments/)
+* [The Art of Comments](https://css-tricks.com/the-art-of-comments/)
 
 #### 🛠️ Övningar
 * Gå in och redigera er receptsida med en bra och genomtänkt namngivning och kodstruktur
