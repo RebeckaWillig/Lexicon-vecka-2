@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Example</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <article class="max-w-[70ch] space-y-2 p-4 m-auto bg-gray-200 border-2 text-pretty">
+        <img class="max-h-[200px] min-w-full object-cover" src="https://picsum.photos/1200/600?grayscale" width="600"
+            height="200" />
+        <header class="space-y-2 border-b-1 py-4">
+            <h2 class="text-xl text-balance">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+            <p class="text-xs text-gray-500">Posted <time datetime="2022-01-01">2022-01-01</time> by <strong>Juan
+                    Cruz</strong></p>
+        </header>
+
+        <p>This is a <i>description</i> inside the card.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis excepturi placeat aut eveniet fuga
+            architecto quae esse dolorem quisquam. Necessitatibus fugit maiores voluptatem modi voluptatum ratione illum
+            laborum doloremque corporis?</p>
+        <footer class="p-4 bg-gray-100 border-2 border-gray-300 text-xs">
+            <button class="p-2 text-xs bg-gray-500 border-1 text-gray-100 hover:bg-sky-400" type="button"
+                data-type="secondary">Secondary</button>
+            <button class="p-2 text-xs bg-gray-50 border-1 hover:bg-sky-400" type="button">Default</button>
+        </footer>
+    </article>
+</body>
+
+</html>

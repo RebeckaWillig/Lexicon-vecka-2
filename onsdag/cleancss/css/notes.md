@@ -1,0 +1,24 @@
+# Clean Code - Vad är "fult" i kod
+
+- repeterad/onödig kod onödig
+- hårdkodade storlekar som height och width
+- enormt onödigt intro
+- död kod (kod som inte används)
+- namngivning ibland camelCase ibland PascalCase och ibland sv/eng
+- en massa !important
+- formatering och intendering/indragning
+- saker på samma rad
+- mellanrum mellan olika klasser bör vara lika
+- repeterade klasser
+- koder som hör ihop ligger inte tillsammans
+- inuti varje klass ligger saker osorterat
+- använder inte shorthand
+- ärver inte egenskaper effektivt från en grund
+- saknas en reset så man slipper sätta allt till 0
+- generella klasser för body, h1 osv
+- saker som redan är default och inte behövs
+- personliga kommentarer som kanske inte är så bra utåt
+- kommentarer som inte förklarar eller bidrar (kunde tas bort då det ändå finns i repot)
+- alla mått är px utom nån %
+- namnen anger beskrivningar på oklart sätt
+- emojis är osäkra pga charset

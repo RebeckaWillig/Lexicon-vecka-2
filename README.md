@@ -105,6 +105,34 @@ Hur vi kan göra vår CSS mer läsbar/hanterbar och mer effektiv. Om vi läser v
 
 Eget arbete och med kod, e-learning och läsning. Se till att jobba mot veckans mål nedan när ni förbättrar receptsidan ytterligare. 
 
+### Grupprogrammering för vissa grupper
+
+> Vi hänger, kodar tillsammans, och svarar på frågor som vi har släpat på under veckan
+
+- Grupp #1 (09:30-10:30)
+- Grupp #2 (10:45-11:45)
+
+Att förbereda sig med:
+- Ladda ned VS-code tillägget: Live-Share
+
+### En fråga, per grupp, att tänka på inför fredagens kodsnack
+
+> Tanken är att vi ska bygga en komplett CSS-manual av era gemensamma svar
+
+- Grupp 1: Hur kan vi se till att rätt CSS-regel gäller utan att göra det svårt att ändra stilen senare?
+
+- Grupp 2: När är det bättre att styla utifrån var ett element ligger i HTML-strukturen, och när är det bättre att styla den genom att sätta en egen, självständig, CSS-klass/id?
+
+- Grupp 3: Hur kan vi strukturera vår CSS så att den blir lättare att förstå, utan att göra det onödigt krångligt?
+
+- Grupp 4: När är det fördelaktigt att återanvända samma CSS-regel eller variabel på flera ställen, och när kan det vara mindre bra?
+
+- Grupp 5: När behöver vi styra storlekar exakt, och när bör innehållet och det tillgängliga utrymmet bestämma det?
+
+- Grupp 6: Hur kan våra designval göra sidan lättare eller svårare att använda för olika personer, och hur kan vi anpassa designen för att försöka inkludera alla?
+
+- Grupp 7: När är en liten lokal ändring rätt lösning, och när bör vi tänka på att ändra vår CSS struktur istället?
+
 ### 🎯 Mål för dagen
 
 * Inga hårdkodade färger (allt via CSS-variabler)
@@ -118,13 +146,20 @@ Eget arbete och med kod, e-learning och läsning. Se till att jobba mot veckans 
 ## 📅 Fredag: Kodsnack (P)
 
 ### Kodsnack i grupp
-* Vi granskar varandras kod. Tillsammans identifierar vi dolda fällor och diskuterar hur det kan skrivas enligt modern standard.
 
-* Diskutera veckans frågor: Vad kändes ovant? Vilka enheter vållade problem? Formulera tillsammans 3-5 principer alla i gruppen tycker definierar "ren CSS". 
+* Behandla det nya ni har implementerat på er receptsajt, det som ni lärt er under veckan. Upplägget ska vara likt som förra veckan: dela er kod, välj ut kodblock som ni tyckte var extra intressanta, och försök bygga en diskussion kring det.
 
-* Samling - Vi sammanfattar gruppernas principer för bra kod inför kommande veckors arbete.
+* Svara, på ett så utförligt sätt som möjligt, på er tilldelade gruppfråga (gruppfrågan hittas ovan under rubriken: Torsdag).
+  * Skriv ned svaret i textform. Försök att strukturera upp era tankar så bra som möjligt.
 
+* Samling - Vi sammanfattar gruppernas principer till en gemensam AI-skill.
+  * Varje grupp utser en person som muntligt går igenom hur gruppen tänkt kring svaret.
+  * Svaret bifogas som text i chatten.
+ 
+ ### 🎯 Mål för dagen
 
+* Hitta fram till gemensamma CSS best-practices
+* Förstå fördelen med att spara ens kunskap för att återanvändas i något som en AI-skill
 
 ---
 
